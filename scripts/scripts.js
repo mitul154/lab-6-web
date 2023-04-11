@@ -75,10 +75,10 @@ modelButton.addEventListener("click", changeModel);
 
 // INSERT YOUR CODE HERE
 
-duartionButton = document.getElementById("duration-button");
+let duartionButton = document.getElementById("duration-button");
 function changeDuration(){
-    let durationPrompt = prompt("New Duration: ")
-    duration.innerHTML = durationPrompt
-    recalculate()
+    let durationPrompt = prompt("New Duration: ");
+    duration.innerHTML = durationPrompt;
+    recalculate();
 }
 duartionButton.addEventListener("click", changeDuration);
